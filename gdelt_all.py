@@ -28,7 +28,7 @@ try:
     urls = [ exportUrl, mentionsUrl, gkgUrl]
 
     #connection string is constant for authentication to storage account
-    conn_str = "DefaultEndpointsProtocol=https;AccountName=srckx;AccountKey=sr5U6sb2z/F6QPVU94OXvuM53vu1p16D8CDW8sV28IRzSNWn5hXQyeb5XwUK8NED2wevlhtmSBOC+AStKcKiwA==;EndpointSuffix=core.windows.net"
+    conn_str = <Connection String>
     
     #loop over each file type, pulled from above
     for u in urls:
